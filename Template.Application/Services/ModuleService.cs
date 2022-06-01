@@ -4,7 +4,6 @@ using System.Linq;
 using Template.Application.Interfaces;
 using Template.Application.ViewModels.Modules;
 using Template.Domain.Entities;
-using Template.Domain.Interfaces;
 
 namespace Template.Application.Services
 {
