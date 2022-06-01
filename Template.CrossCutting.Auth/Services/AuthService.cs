@@ -47,7 +47,7 @@ namespace Template.CrossCutting.Auth.Services
             }
             catch (Exception)
             {
-                throw new ApiException("Invalid Token", HttpStatusCode.Unauthorized);
+                throw new ApiException("Invalid Token!", HttpStatusCode.Unauthorized);
             }
         }
 
